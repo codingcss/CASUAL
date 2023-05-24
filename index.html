@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CASUAL</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="pageGrid">
+
+    <main>
+
+      <div class="hero partsGrid">
+        <h1>CASUAL</h1>
+        <p>
+          Outdoor Camping since 2001
+        </p>
+        <figure>
+          <img src="./image/tent.jpg" alt="Hero image">
+        </figure>
+      </div>
+
+      <div class="msg msgBlack partsGrid">
+
+        <figure>
+          <img src="./image/tent-green.jpg" alt=" tent green ">
+        </figure>
+        <div class="text">
+          <h2>Start the Adventure</h2>
+          <p class="text-subtitle">Let's Go Outside</p>
+          <p class="text-body">
+            Ready for adventure? You can leave all to us, enjoy your own
+            packed, or visit sites worldwide with minimal baggage. There are many styles of
+            enjoyment to be had there. Reflect on your favorite one in your adventure!
+          </p>
+          <p class="text-link"><a href="./article.html">More &gt; &gt; &gt;</a></p>
+        </div>
+        
+      </div>
+
+      <div class="msg msgwhite partsGrid">
+        <figure>
+          <img src="./image/fire.jpg" alt=" fire img">
+        </figure>
+        <div class="text">
+          <h2>Casual Experience</h2>
+          <p class="text-subtitle">Just Around the Corner</p>
+          <p class="text-body">
+            The choice of sites and fields continues to grow every year,
+            and everything you need to enjoy the outdoor is there. Professional guides will
+            assist you as required, so experience a variety of things
+          </p>
+          <p class="text-link"><a href="./article.html">More &gt; &gt; &gt;</a></p>
+        </div>
+      </div>
+
+    </main>
+
+    <button class="nav-button" onClick="navFunc()">
+        <span class="sr-only">MENU</span>
+      </button>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="article.html">ABOUT</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+  
+      <ul class="sns">
+        <li>
+          <a href="#"
+            ><img src="./image/logo-facebook.svg" alt="Facebook" class="logo-fb"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./image/logo-instagram.svg" alt="Instagram" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./image/logo-twitter.svg" alt="Twitter" /></a>
+        </li>
+      </ul>
+  
+      <div class="decor">Enjoy Active Outdoor Camping</div>
+  
+      <footer class="footer partsGrid">
+        <div class="text">
+          <div class="site">CASUAL</div>
+          <div class="address">
+            Carrot Hill 68 Str. <br />
+            15342 Ground Town, North Island <br />
+            +1-800-1234-5678
+          </div>
+        </div>
+        <div class="chat">
+          <a href="#">
+            <img src="./image/chat.svg" alt="Chat" /> <br />
+            Chat Support
+          </a>
+        </div>
+      </footer>
+
+      <script>
+        function navFunc() {
+          document.querySelector('html').classList.toggle('open')
+        }
+      </script>
+    
+  </body>
+</html>
